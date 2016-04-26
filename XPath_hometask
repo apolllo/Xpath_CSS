@@ -23,17 +23,17 @@
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//*[@id='mainContent']/h3[2]</td>
+	<td>//div[@id='mainContent']/h3[2]</td>
 	<td>*Server*</td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//*[@id='mainContent']/table[1]</td>
+	<td>//div[@id='mainContent']/table[1]</td>
 	<td>*Ruby*</td>
 </tr>
 <tr>
 	<td>verifyNotText</td>
-	<td>//*[@id='mainContent']/table[2]</td>
+	<td>//div[@id='mainContent']/table[2]</td>
 	<td>*Ruby*</td>
 </tr>
 </tbody></table>
