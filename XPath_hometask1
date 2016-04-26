@@ -33,13 +33,23 @@
 </tr>
 <tr>
 	<td>waitForText</td>
-	<td>//*[@class='order-summary']/*/*[2]</td>
+	<td>//div[@class='order-summary']/dl/dd[1]</td>
 	<td>*Chef Anton's Cajun Seasoning*</td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//*[@class='order-summary']/*/*[2]</td>
+	<td>//div[@class='order-summary']/dl/dd[1]</td>
 	<td>*Chef Anton's Cajun Seasoning*</td>
+</tr>
+<tr>
+	<td>verifyNotText</td>
+	<td>//div[@class='order-summary']/dl/dd[1]</td>
+	<td>To test the behavior</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td></td>
+	<td>To test the behavior</td>
 </tr>
 </tbody></table>
 </body>
